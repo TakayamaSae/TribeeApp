@@ -32,6 +32,8 @@ final class AgeAffiliationViewController: UIViewController {
     
     /// 次へボタンをタップ
     @IBAction func didTapNextButton(_ sender: Any) {
+        let nextVC = InputUserNameViewController()
+        navigationController?.pushViewController(nextVC, animated: true)
     }
     
     // MARK: - Other Methods
