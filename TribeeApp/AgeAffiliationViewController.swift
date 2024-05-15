@@ -15,6 +15,10 @@ final class AgeAffiliationViewController: UIViewController {
     
     // MARK: - IBOutlets
     
+    /// 年齢テキストフィールド
+    @IBOutlet weak var ageTextField: UITextField!
+    /// 所属テキストフィールド
+    @IBOutlet weak var affiliationTextField: UITextField!
     
     // MARK: - View Life-Cycle Methods
     
@@ -26,6 +30,9 @@ final class AgeAffiliationViewController: UIViewController {
 
     // MARK: - IBActions
     
+    /// 次へボタンをタップ
+    @IBAction func didTapNextButton(_ sender: Any) {
+    }
     
     // MARK: - Other Methods
 
