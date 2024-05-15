@@ -20,8 +20,11 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_background" translatesAutoresizingMaskIntoConstraints="NO" id="Icz-9a-qps">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_background" translatesAutoresizingMaskIntoConstraints="NO" id="Icz-9a-qps">
                     <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="393" id="cIQ-OB-8Md"/>
+                    </constraints>
                 </imageView>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_tribee_title" translatesAutoresizingMaskIntoConstraints="NO" id="LaU-db-dBg">
                     <rect key="frame" x="101" y="70" width="191" height="64"/>

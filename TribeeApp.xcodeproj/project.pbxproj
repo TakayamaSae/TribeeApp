@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB4FBA9C2BF4D6D300D8646D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4FBA9A2BF4D6D300D8646D /* HomeViewController.swift */; };
+		BB4FBA9D2BF4D6D300D8646D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB4FBA9B2BF4D6D300D8646D /* HomeViewController.xib */; };
 		BB70CA4E2BF372BB00A8CCE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70CA4D2BF372BB00A8CCE3 /* AppDelegate.swift */; };
 		BB70CA502BF372BB00A8CCE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70CA4F2BF372BB00A8CCE3 /* SceneDelegate.swift */; };
-		BB70CA522BF372BB00A8CCE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70CA512BF372BB00A8CCE3 /* ViewController.swift */; };
-		BB70CA552BF372BB00A8CCE3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BB70CA542BF372BB00A8CCE3 /* Base */; };
 		BB70CA572BF372BC00A8CCE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB70CA562BF372BC00A8CCE3 /* Assets.xcassets */; };
 		BB70CA5A2BF372BC00A8CCE3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BB70CA592BF372BC00A8CCE3 /* Base */; };
 		BB70CA652BF372BC00A8CCE3 /* TribeeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70CA642BF372BC00A8CCE3 /* TribeeAppTests.swift */; };
@@ -18,6 +18,8 @@
 		BB70CA712BF372BC00A8CCE3 /* TribeeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70CA702BF372BC00A8CCE3 /* TribeeAppUITestsLaunchTests.swift */; };
 		BB70CA7F2BF37C5F00A8CCE3 /* AgeAffiliationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70CA7D2BF37C5F00A8CCE3 /* AgeAffiliationViewController.swift */; };
 		BB70CA802BF37C5F00A8CCE3 /* AgeAffiliationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB70CA7E2BF37C5F00A8CCE3 /* AgeAffiliationViewController.xib */; };
+		BBCCE4BE2BF4E2F30056E21F /* InputUserNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBCCE4BD2BF4E2F30056E21F /* InputUserNameViewController.xib */; };
+		BBCCE4BF2BF4E2F30056E21F /* InputUserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCCE4BC2BF4E2F30056E21F /* InputUserNameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB4FBA9A2BF4D6D300D8646D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BB4FBA9B2BF4D6D300D8646D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		BB70CA4A2BF372BB00A8CCE3 /* TribeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TribeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB70CA4D2BF372BB00A8CCE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB70CA4F2BF372BB00A8CCE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB70CA512BF372BB00A8CCE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB70CA542BF372BB00A8CCE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB70CA562BF372BC00A8CCE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB70CA592BF372BC00A8CCE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB70CA5B2BF372BC00A8CCE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		BB70CA702BF372BC00A8CCE3 /* TribeeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TribeeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BB70CA7D2BF37C5F00A8CCE3 /* AgeAffiliationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeAffiliationViewController.swift; sourceTree = "<group>"; };
 		BB70CA7E2BF37C5F00A8CCE3 /* AgeAffiliationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeAffiliationViewController.xib; sourceTree = "<group>"; };
+		BBCCE4BC2BF4E2F30056E21F /* InputUserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputUserNameViewController.swift; sourceTree = "<group>"; };
+		BBCCE4BD2BF4E2F30056E21F /* InputUserNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputUserNameViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +109,12 @@
 			children = (
 				BB70CA4D2BF372BB00A8CCE3 /* AppDelegate.swift */,
 				BB70CA4F2BF372BB00A8CCE3 /* SceneDelegate.swift */,
-				BB70CA512BF372BB00A8CCE3 /* ViewController.swift */,
+				BB4FBA9A2BF4D6D300D8646D /* HomeViewController.swift */,
+				BB4FBA9B2BF4D6D300D8646D /* HomeViewController.xib */,
 				BB70CA7D2BF37C5F00A8CCE3 /* AgeAffiliationViewController.swift */,
 				BB70CA7E2BF37C5F00A8CCE3 /* AgeAffiliationViewController.xib */,
-				BB70CA532BF372BB00A8CCE3 /* Main.storyboard */,
+				BBCCE4BC2BF4E2F30056E21F /* InputUserNameViewController.swift */,
+				BBCCE4BD2BF4E2F30056E21F /* InputUserNameViewController.xib */,
 				BB70CA562BF372BC00A8CCE3 /* Assets.xcassets */,
 				BB70CA582BF372BC00A8CCE3 /* LaunchScreen.storyboard */,
 				BB70CA5B2BF372BC00A8CCE3 /* Info.plist */,
@@ -239,8 +245,9 @@
 			files = (
 				BB70CA572BF372BC00A8CCE3 /* Assets.xcassets in Resources */,
 				BB70CA5A2BF372BC00A8CCE3 /* Base in Resources */,
+				BB4FBA9D2BF4D6D300D8646D /* HomeViewController.xib in Resources */,
 				BB70CA802BF37C5F00A8CCE3 /* AgeAffiliationViewController.xib in Resources */,
-				BB70CA552BF372BB00A8CCE3 /* Base in Resources */,
+				BBCCE4BE2BF4E2F30056E21F /* InputUserNameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB70CA522BF372BB00A8CCE3 /* ViewController.swift in Sources */,
+				BB4FBA9C2BF4D6D300D8646D /* HomeViewController.swift in Sources */,
 				BB70CA4E2BF372BB00A8CCE3 /* AppDelegate.swift in Sources */,
 				BB70CA502BF372BB00A8CCE3 /* SceneDelegate.swift in Sources */,
+				BBCCE4BF2BF4E2F30056E21F /* InputUserNameViewController.swift in Sources */,
 				BB70CA7F2BF37C5F00A8CCE3 /* AgeAffiliationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BB70CA532BF372BB00A8CCE3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB70CA542BF372BB00A8CCE3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BB70CA582BF372BC00A8CCE3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -455,7 +455,7 @@
 				INFOPLIST_FILE = TribeeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,7 +483,7 @@
 				INFOPLIST_FILE = TribeeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
