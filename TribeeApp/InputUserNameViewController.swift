@@ -28,6 +28,11 @@ final class InputUserNameViewController: UIViewController {
     // MARK: - IBActions
 
     /// 次へボタンをタップ
-    @IBAction func didTapNextButton(_ sender: Any) {
+    @IBAction func didTapNextButton(_ sender: Any) {       
+        let nextVC = CreateNewAccountViewController()
+        navigationController?.pushViewController(nextVC, animated: true)
     }
+    
+    // MARK: - Other Methods
+
 }

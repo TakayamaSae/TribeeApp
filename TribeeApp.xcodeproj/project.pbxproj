@@ -20,6 +20,8 @@
 		BB70CA802BF37C5F00A8CCE3 /* AgeAffiliationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB70CA7E2BF37C5F00A8CCE3 /* AgeAffiliationViewController.xib */; };
 		BBCCE4BE2BF4E2F30056E21F /* InputUserNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBCCE4BD2BF4E2F30056E21F /* InputUserNameViewController.xib */; };
 		BBCCE4BF2BF4E2F30056E21F /* InputUserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCCE4BC2BF4E2F30056E21F /* InputUserNameViewController.swift */; };
+		BBCCE4C22BF5D7B80056E21F /* CreateNewAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBCCE4C12BF5D7B80056E21F /* CreateNewAccountViewController.xib */; };
+		BBCCE4C32BF5D7B80056E21F /* CreateNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCCE4C02BF5D7B80056E21F /* CreateNewAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		BB70CA7E2BF37C5F00A8CCE3 /* AgeAffiliationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeAffiliationViewController.xib; sourceTree = "<group>"; };
 		BBCCE4BC2BF4E2F30056E21F /* InputUserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputUserNameViewController.swift; sourceTree = "<group>"; };
 		BBCCE4BD2BF4E2F30056E21F /* InputUserNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputUserNameViewController.xib; sourceTree = "<group>"; };
+		BBCCE4C02BF5D7B80056E21F /* CreateNewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewAccountViewController.swift; sourceTree = "<group>"; };
+		BBCCE4C12BF5D7B80056E21F /* CreateNewAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateNewAccountViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				BB70CA7E2BF37C5F00A8CCE3 /* AgeAffiliationViewController.xib */,
 				BBCCE4BC2BF4E2F30056E21F /* InputUserNameViewController.swift */,
 				BBCCE4BD2BF4E2F30056E21F /* InputUserNameViewController.xib */,
+				BBCCE4C02BF5D7B80056E21F /* CreateNewAccountViewController.swift */,
+				BBCCE4C12BF5D7B80056E21F /* CreateNewAccountViewController.xib */,
 				BB70CA562BF372BC00A8CCE3 /* Assets.xcassets */,
 				BB70CA582BF372BC00A8CCE3 /* LaunchScreen.storyboard */,
 				BB70CA5B2BF372BC00A8CCE3 /* Info.plist */,
@@ -244,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB70CA572BF372BC00A8CCE3 /* Assets.xcassets in Resources */,
+				BBCCE4C22BF5D7B80056E21F /* CreateNewAccountViewController.xib in Resources */,
 				BB70CA5A2BF372BC00A8CCE3 /* Base in Resources */,
 				BB4FBA9D2BF4D6D300D8646D /* HomeViewController.xib in Resources */,
 				BB70CA802BF37C5F00A8CCE3 /* AgeAffiliationViewController.xib in Resources */,
@@ -273,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB4FBA9C2BF4D6D300D8646D /* HomeViewController.swift in Sources */,
+				BBCCE4C32BF5D7B80056E21F /* CreateNewAccountViewController.swift in Sources */,
 				BB70CA4E2BF372BB00A8CCE3 /* AppDelegate.swift in Sources */,
 				BB70CA502BF372BB00A8CCE3 /* SceneDelegate.swift in Sources */,
 				BBCCE4BF2BF4E2F30056E21F /* InputUserNameViewController.swift in Sources */,
